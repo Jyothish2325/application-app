@@ -1,5 +1,5 @@
 import React from "react"
-import One from "./functions/One"
+import One from "./classes/One"
 function App(){
   return(<>
   <h1>Functions</h1>
