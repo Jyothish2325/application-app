@@ -1,8 +1,12 @@
-import React from "react"
-function App(){return(<div>
-  <h1>react applications</h1>
-<hr></hr>
-<h2>applications</h2>
+import React from "react";
+class App extends React.Component{
+render(){
+  return(
+    <div>
+      <h1>Jyothish</h1>
+    </div>
+  )
 
-</div>)}
+}
+}
 export default App
