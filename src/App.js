@@ -1,12 +1,10 @@
 import React from "react"
-class App extends React.Component{
-  render(){
-    return(<div>
-      <h1>React js</h1>
-      <hr></hr>
-      <h2>Html
-      </h2>
-    </div>)
-  }
+import One from "./functions/One"
+function App(){
+  return(<>
+  <h1>Functions</h1>
+  <hr></hr>
+  <One/>
+  </>)
 }
 export default App
