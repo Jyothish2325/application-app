@@ -1,13 +1,10 @@
- import React from "react"
- import One from "./components/class components/One"
-
-class App extends React.Component{
-  render(){
-    return(<>
-    <h1>Component Class</h1>
-    <hr></hr>
-    <One/>
+import React from "react"
+import ComponentA from "./props/functions-props/ComponentA"
+let App =()=>{
+    return (<>
+    <h1>Jyothish</h1>
+    <hr/>
+    <ComponentA/>
     </>)
-  }
 }
 export default App
