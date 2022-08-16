@@ -1,12 +1,14 @@
-import React  from "react" 
-import ClassA from "./Classes-props/ClassA"
-function App(){
-   
-        return(
-            <div>
-            <h1>App RAECT</h1>
-           <ClassA/>
-            </div>)
-   
+import React from 'react'
+import ImpA from "./Classes-props/ImpA"
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+      <h1>classes</h1>
+      <ImpA/>
+      </div>
+    )
+  }
 }
-export default App
+
+export default  App
