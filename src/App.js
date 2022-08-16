@@ -1,11 +1,11 @@
 import React from 'react'
-import ImpA from "./Classes-props/ImpA"
+import FunA from "./fun-class/FunA"
 class App extends React.Component {
   render() {
     return (
       <div>
       <h1>classes</h1>
-      <ImpA/>
+      <FunA />
       </div>
     )
   }
