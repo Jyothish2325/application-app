@@ -1,14 +1,13 @@
 import React from 'react'
-import FunA from "./fun-class/FunA"
-class App extends React.Component {
-  render() {
-    return (
-      <div>
-      <h1>classes</h1>
-      <FunA />
-      </div>
-    )
-  }
+import ClassB from "./fun-class/class-fun/ClassB"
+function App() {
+  return (
+    <div>
+    <h1>Classes</h1>
+    <hr/>
+    <ClassB/>
+    </div>
+  )
 }
 
-export default  App
+export default App
