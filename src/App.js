@@ -1,14 +1,14 @@
-import React, { Component } from 'react'
-
-import Funa from "./state Component/Funa"
+import React from 'react'
+import Funb from "./state Component/Funb"
 
  class App extends React.Component {
   render() {
     return (
       <div>
       <h1> React</h1>
-      
-      <Funa/>
+      <hr/>
+      <Funb/>
+     
       </div>
     )
   }
