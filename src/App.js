@@ -1,13 +1,15 @@
-import React from 'react'
-import ClassB from "./fun-class/class-fun/ClassB"
-function App() {
-  return (
-    <div>
-    <h1>Classes</h1>
-    <hr/>
-    <ClassB/>
-    </div>
-  )
+import React, { Component } from 'react'
+import Stateo from "./state Component/Stateo"
+
+ class App extends React.Component {
+  render() {
+    return (
+      <div>
+      <h1> React</h1>
+      <Stateo/>
+      </div>
+    )
+  }
 }
 
 export default App

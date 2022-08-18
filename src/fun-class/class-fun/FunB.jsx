@@ -2,12 +2,10 @@ import React from 'react'
 
 function FunB(props) {
   return (
-    <div><h1>FUNCTIONS</h1>
+    <div>
     <pre>{JSON.stringify(props)}</pre>
-    <hr/>
     <h1>NAME:{props.name}</h1>
-    <h1>SALARY:{props.salary}</h1>
-    </div>
+    <h1>salary:{props.salary}</h1></div>
   )
 }
 
