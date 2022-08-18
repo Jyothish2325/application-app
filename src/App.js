@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
-import Stateo from "./state Component/Stateo"
+
+import Funa from "./state Component/Funa"
 
  class App extends React.Component {
   render() {
     return (
       <div>
       <h1> React</h1>
-      <Stateo/>
+      
+      <Funa/>
       </div>
     )
   }
