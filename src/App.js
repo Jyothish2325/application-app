@@ -1,6 +1,8 @@
 import React from 'react'
 import Funb from "./state Component/Funb"
 import Func from "./state Component/Func"
+import Funs from "./state Component/Funs"
+import Counter1 from "./state Component/Counter1"
 
  class App extends React.Component {
   render() {
@@ -11,6 +13,10 @@ import Func from "./state Component/Func"
       <Funb/>
       <hr/>
       <Func/>
+      <hr/>
+      <Funs/>
+      <hr/>
+      <Counter1/>
      
       </div>
     )
