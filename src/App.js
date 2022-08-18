@@ -1,5 +1,6 @@
 import React from 'react'
 import Funb from "./state Component/Funb"
+import Func from "./state Component/Func"
 
  class App extends React.Component {
   render() {
@@ -8,6 +9,8 @@ import Funb from "./state Component/Funb"
       <h1> React</h1>
       <hr/>
       <Funb/>
+      <hr/>
+      <Func/>
      
       </div>
     )
