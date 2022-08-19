@@ -1,13 +1,12 @@
 import React  from 'react'
 import Navbar from "./Navbar"
-/*import Product from "./Counter/Product"*/
-import Prod from "./Counter/Prod" 
+import Prov from './product/Prov'
 class App extends React.Component {
   render() {
     return (
       <div>
       <Navbar/>
-      <Prod/>
+      <Prov/>
       </div>
     )
   }
