@@ -18,6 +18,7 @@ class Form extends Component {
                                   <h2>LOGIN FORM</h2>
                                  </div>
                                    <div className='card-body'>
+                                   <form>
                                         <div className='form-group'>
                                          <input type="text" placeholder='Eamil' className='form-control' required/>
                                        </div>
@@ -27,6 +28,7 @@ class Form extends Component {
                                        <div>
                                        <input type="submit" value="login" className="btn btn-success" />
                                        </div>
+                                       </form>
                                     </div>
                                </div>
                         </div>
