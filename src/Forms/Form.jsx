@@ -25,9 +25,9 @@ class Form extends Component {
                                        <div className='form-group'>
                                        <input type="text"  placeholder="Password" className='form-control' required/>
                                        </div>
-                                       <div>
+                                      
                                        <input type="submit" value="login" className="btn btn-success" />
-                                       </div>
+                                       
                                        </form>
                                     </div>
                                </div>

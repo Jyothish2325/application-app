@@ -31,11 +31,11 @@ class Form2 extends Component {
                       <div className='form-group'>
                       <input  type="text"  placeholder='EMAIL' onChange={this.emailhandler} className='form-control'/>
                       </div>
-                      <div className='control-form'>
+                      <div className='form-group'>
                       <input type="text" placeholder='PASSWORD' onChange={this.passHandler} className='form-control'/>
                       </div>
                       
-                      <input type="submit" value="login form"  className='btn btn-dark ' />
+                      <input type="submit" className='btn btn-dark ' value="login"   />
                       
                       </form>
                       </div>
