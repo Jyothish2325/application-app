@@ -1,12 +1,14 @@
 import React  from 'react'
 import Navbar from "./Navbar"
-import Prov from './product/Prov'
+
+import Form from "./Forms/Form"
 class App extends React.Component {
   render() {
     return (
       <div>
       <Navbar/>
-      <Prov/>
+     
+      <Form/>
       </div>
     )
   }
